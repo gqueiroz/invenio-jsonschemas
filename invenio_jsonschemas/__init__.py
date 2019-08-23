@@ -168,7 +168,7 @@ initialization of ``InvenioJsonSchemas`` extension by passing the parameter
 variable that controls the serving of the schemas. So, if you want to disable
 the schemas serving you can do it as shown below:
 
-.. code block:: console
+.. code-block:: python
 
     app.config['SCHEMA_ENABLE_VARIABLE'] = False
     ext = InvenioJSONSchemas(app, register_config_blueprint='SCHEMA_ENABLE_VARIABLE')
